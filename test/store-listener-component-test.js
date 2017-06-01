@@ -1,11 +1,11 @@
 import { jsdom } from 'jsdom'
 import Alt from 'alt'
 import React from 'react'
-import AltContainer from 'alt/AltContainer'
+import AltContainer from 'alt-container'
 import withAltContext from '../src/withAltContext'
 import { assert } from 'chai'
 import sinon from 'sinon'
-import TestUtils from 'react-addons-test-utils'
+import TestUtils from 'react-dom/test-utils'
 import ReactDom from 'react-dom'
 
 const alt = new Alt()

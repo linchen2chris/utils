@@ -6,7 +6,7 @@ import ReactDomServer from 'react-dom/server'
 import connectToStores from '../src/connectToStores'
 import { assert } from 'chai'
 import sinon from 'sinon'
-import TestUtils from 'react-addons-test-utils'
+import TestUtils from 'react-dom/test-utils'
 
 const alt = new Alt()
 

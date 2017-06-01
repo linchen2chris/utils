@@ -1,12 +1,12 @@
 import { jsdom } from 'jsdom'
 import React, { Component } from 'react'
 import Alt from 'alt'
-import AltContainer from 'alt/AltContainer'
+import AltContainer from 'alt-container'
 import AltIso from '../src/AltIso'
 import * as Render from '../src/Render'
 import connectToStores from '../src/connectToStores'
 import { assert } from 'chai'
-import TestUtils from 'react-addons-test-utils'
+import TestUtils from 'react-dom/test-utils'
 
 const alt = new Alt()
 
